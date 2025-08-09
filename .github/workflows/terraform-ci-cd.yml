@@ -56,5 +56,5 @@ jobs:
         id: apply-run
         with:
           organization: "sweepstack-alpha"
-          workspace: "sweepstack-iam-management"
+          workspace: "sweepstack-cognito-infra"
           message: ${{github.event.head_commit.message}} # This uses the GH commit as the HCP run subject
